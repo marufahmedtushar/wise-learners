@@ -29,6 +29,10 @@ nav .container .register{
 
 /*Section1*/
 
+.section1 .container{
+
+}
+
 .section1 .container .carousel-item:before{
 
 	content:"";
@@ -53,6 +57,19 @@ nav .container .register{
 	background-color: #289BDE;
 }
 
+/*Section2*/
+.section2 .container .courses .col-md-8 small{
+	color: #289BDE;
+}
+
+.section2 .container .more-btn a{
+	background-color: #289BDE;
+}
+
+/*Section4*/
+.section4 .container{
+	background-color: #289BDE;
+}
 
 
 
