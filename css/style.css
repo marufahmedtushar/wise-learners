@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+body{
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	background-color: #ffffff;
+}
+
+/*navbar*/
+
+#nav1{
+	display: none;
+}
+
+nav .container .collapse{
+	
+	justify-content: space-evenly!important;
+}
+
+nav .container .collapse ul li{
+	padding: 5px 15px 5px 15px;
+}
+
+nav .container .register{
+	border: 1px solid #289BDE;
+	color: #289BDE;
+}
+
+/*Section1*/
+
+.section1 .container .carousel-item:before{
+
+	content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  border-radius: 10px;
+  background:rgba(0,0,0,0.7);
+
+}
+.section1 .container .carousel-caption{
+
+	top: 245px;
+}
+.section1 .container .carousel-caption h1{
+	font-size: 65px;
+}
+.section1 .container .carousel-caption a{
+	background-color: #289BDE;
+}
+
+
+
+
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {}
+@media only screen and (max-width: 600px) {
+	/*navbar*/
+	#nav1{
+		display: block;
+	}
+	#nav{
+		display: none;
+	}
+	#nav1 .container .navbar-brand{
+		font-size: 17px;
+	}
+	#nav1 .container .register{
+		margin-right: 5px;
+	}
+}
