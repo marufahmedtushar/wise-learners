@@ -104,6 +104,23 @@ nav .container .register{
 	font-size: 45px;
 }
 
+/*Section7*/
+
+.section7 .container .accordion-button{
+	color: #1E1E1E!important;
+}
+.section7 .container .accordion-item #collapseOne{
+	border: none!important;
+}
+.section7 .accordion-button:focus{
+	outline: 0;
+	box-shadow: none !important;
+}
+
+/*Section8*/
+.section8 .container .cmp-img img{
+	padding: 5px 25px 5px 25px;
+}
 
 
 
@@ -174,6 +191,9 @@ nav .container .register{
 	}
 
 	/*Section4*/
+	.section4{
+		padding-bottom: 0!important;
+	}
 	.section4 .container{
 		flex-direction: column;
 		justify-content: center;
@@ -190,5 +210,23 @@ nav .container .register{
 	}
 	.section4 .container .modal-details P{
 		text-align: center;
+	}
+
+	/*Section5*/
+	.section5 .container .student-elements{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		text-align: center;
+		padding: 5px;
+
+	}
+	.section5 .container .student-elements h5{
+	font-size: 20px;
+	}
+
+	.section7 .container .qs{
+		width: 100% !important;
 	}
 }
