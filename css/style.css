@@ -28,7 +28,9 @@ nav .container .register{
 }
 
 /*Section1*/
-
+#slider1{
+	display: none;
+}
 .section1 .container{
 
 }
@@ -66,10 +68,42 @@ nav .container .register{
 	background-color: #289BDE;
 }
 
+/*Section3*/
+
+/*.section3 .container .card .row .col-md-8{
+	background-color: #F4FAFD;
+}*/
+
+.section3 .container .card .row .col-md-8 .card-body h5{
+	font-size: 45px;
+}
+
+.section3 .container .card .row .col-md-8 .card-body .read-more a:hover{
+	background-color: #289BDE;
+	color: #ffffff;
+}
+.button{
+	background-color: #289BDE;
+}
+
+
 /*Section4*/
 .section4 .container{
 	background-color: #289BDE;
 }
+.section4 .modal .modal-header{
+	background-color: #289BDE;
+}
+.section4 .modal .modal-body .register{
+	border: 1px solid #289BDE;
+	color: #289BDE;
+}
+
+/*Section5*/
+.section5 .container .student-elements h5{
+	font-size: 45px;
+}
+
 
 
 
@@ -88,5 +122,73 @@ nav .container .register{
 	}
 	#nav1 .container .register{
 		margin-right: 5px;
+	}
+	/*Section1*/
+	#slider1{
+		display: block;
+	}
+	#slider{
+		display: none;
+	}
+	.section1 .container .carousel-caption{
+		margin-top: -225px !important;
+		padding: 10px!important;
+		flex-direction: column;
+	}
+	.section1 .container .carousel-caption h1{
+	font-size: 20px;
+	}
+	.section1 .container .carousel-caption p{
+		font-size: 10px;
+	}
+	.section1 .container .carousel-caption a{
+
+	}
+	/*Section2*/
+	.section2 .container .courses .col-md-4 img{
+		width: 100%;
+	}
+	.section2 .container .courses .col-md-8 small{
+		font-size: 22px;
+		font-weight: bold;
+	}
+	/*Section3*/
+	.section3 .container .card .row .col-md-4 img{
+		width: 100%;
+	}
+	.section3 .container .card .row .col-md-8{
+		padding: 0!important;
+	}
+	.section3 .container .card .row .col-md-8 .card-body{
+		padding: 20px !important;
+	}
+	.section3 .container .card{
+		padding: 0!important;
+	}
+	.section3 .container .card .row .col-md-8 .card-body h5 {
+    font-size: 20px;
+	}
+	.section3 .container .card .row .col-md-8 .card-body .info h5{
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	/*Section4*/
+	.section4 .container{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 20PX!important;
+		margin: 15px!important;
+		width: 100%;
+	}
+	.section4 .container .modal-details{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.section4 .container .modal-details P{
+		text-align: center;
 	}
 }
