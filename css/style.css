@@ -9,7 +9,7 @@ body{
 
 /*navbar*/
 
-#nav1{
+#nav1,#nav2{
 	display: none;
 }
 
@@ -195,10 +195,10 @@ footer {
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
 
 	/*navbar*/
-	#nav{
+	#nav,#nav1{
 	display: none;
 	}
-	#nav1{
+	#nav2{
 	display: block;
 	}
 	#nav1 .container .register{
@@ -272,7 +272,7 @@ footer {
 	#nav1{
 		display: block;
 	}
-	#nav{
+	#nav,#nav2{
 		display: none;
 	}
 	#nav1 .container .navbar-brand{
