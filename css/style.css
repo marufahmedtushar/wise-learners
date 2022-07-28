@@ -103,7 +103,22 @@ nav .container .register{
 .section5 .container .student-elements h5{
 	font-size: 45px;
 }
+.section5 .container .read-more a:hover{
+	background-color: #289BDE;
+	color: #ffffff;
+}
 
+/*Section6*/
+.section6 .container .feedback .carousel-control-prev{
+	margin-left: -20px;
+} 
+.section6 .container .feedback .carousel-control-next{
+	margin-right: -20px;
+
+}
+.section6 .container .feedback .carousel-control-next .carousel-control-next-icon,.section6 .container .feedback .carousel-control-prev .carousel-control-prev-icon{
+	background-color: #289BDE;
+}
 /*Section7*/
 
 .section7 .container .accordion-button{
@@ -120,6 +135,51 @@ nav .container .register{
 /*Section8*/
 .section8 .container .cmp-img img{
 	padding: 5px 25px 5px 25px;
+}
+
+/*footer*/
+
+
+
+footer {
+    background-color: #161616;
+    padding: 50px 0;
+    display: flex;
+	justify-content: center;
+}
+
+.title h3 , .owner-details p{
+	text-align: center;
+	color: white;
+}
+
+
+
+.social i{
+    background: rgba(218, 208, 208, 0.1);
+    width: 32px;
+    height: 32px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  
+    border-radius: 50%;
+}
+
+.social ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.social ul li{
+	list-style: none;
+}
+.social ul li a{
+	text-decoration: none;
+	padding: 5px;
+	color: white;
+
 }
 
 
@@ -226,7 +286,28 @@ nav .container .register{
 	font-size: 20px;
 	}
 
+	.section5 .container .student-lists .card-body{
+		text-align: center;
+	}
+
+	/*Section7*/
 	.section7 .container .qs{
 		width: 100% !important;
+	}
+	.section7 .container .qs-elements{
+		padding: 15px;
+	}
+	.section7 .container .qs-elements h1{
+		font-size: 20px;
+	}
+	.section7 .container .qs-elements p{
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	/*footer*/
+
+	footer .container{
+	padding: 15px !important;
 	}
 }
