@@ -221,6 +221,9 @@ footer {
 	.section2 .container .course-details h1{
 		font-size: 30px;
 	}
+	.section2 .container .courses .row .col-lg-6:nth-child(2){
+		display: none;
+	}
 
 	/*Section3*/
 	.section3 .container .card .row .col-lg-8{
@@ -310,6 +313,9 @@ footer {
 		font-size: 22px;
 		font-weight: bold;
 	}
+	.section2 .container .courses .row .col-lg-6:nth-child(2){
+		display: none;
+	}
 	/*Section3*/
 	.section3{
 		padding-top: 10px!important;
@@ -379,6 +385,10 @@ footer {
 
 	.section5 .container .student-lists .card-body{
 		text-align: center;
+	}
+
+	.section5 .container .student-lists .row .col-lg-3:nth-child(4){
+		display: none;
 	}
 
 	/*Section6*/
